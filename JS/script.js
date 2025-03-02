@@ -1,3 +1,6 @@
+document.getElementById("toBlog").addEventListener("click", function () {
+    window.location.href = "blog.html";
+  });
 // Date Related
 const today = new Date();
 const day = today.toLocaleString("en-US", { weekday: "short" });
